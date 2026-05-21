@@ -1,0 +1,52 @@
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.counter-card {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 100%;
+  max-width: 380px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.counter-title {
+  font-size: 1.1rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.counter-number {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #0d6efd;
+  margin-bottom: 2rem;
+  transition: transform 0.1s ease;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.button-group .btn {
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.button-group .btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
